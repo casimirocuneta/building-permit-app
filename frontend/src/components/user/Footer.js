@@ -3,11 +3,18 @@ import { Container, Col, Row } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <footer>
-      <Container fluid>
+    <footer
+      style={{
+        marginBottom: '0',
+        padding: '0',
+        textAlign: 'center',
+        background: '#0d3206',
+      }}
+    >
+      <Container>
         <Row>
-          <Col className='text-center py-1' style={{ fontSize: '12px' }}>
-            &copy; OFFICE OF THE BUILDING OFFICIAL
+          <Col className='text-center py-3' style={{ color: '#FFF' }}>
+            Copyright &copy; Building Official
           </Col>
         </Row>
       </Container>

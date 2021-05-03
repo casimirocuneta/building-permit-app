@@ -1,5 +1,10 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Switch, Route } from 'react-router-dom'
+
+//Screens
+import HomeScreen from './screens/HomeScreen'
+
+// Component
 import GuestHeader from './components/user/GuestHeader'
 import Footer from './components/user/Footer'
 
@@ -8,9 +13,9 @@ const App = () => {
     <>
       <GuestHeader />
       <main>
-        <Container>
-          <h3>Hello</h3>
-        </Container>
+        <Switch>
+          <Route path='/' component={HomeScreen} exact />
+        </Switch>
       </main>
       <Footer />
     </>

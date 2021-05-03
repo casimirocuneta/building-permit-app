@@ -9,13 +9,13 @@ const GuestHeader = () => {
         expand='lg'
         bg='bg-white'
         variant='light'
-        className='py-1'
+        className='py-2'
       >
         <img
           alt=''
           src='assets/logo/Ootb-logo.png'
-          width='60'
-          height='60'
+          width='85'
+          height='80'
           className='d-inline-block mr-1'
         />
         <Navbar.Brand href='/' className='brand-name'>
